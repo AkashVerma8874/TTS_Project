@@ -1,1 +1,18 @@
+1. SciPy
+ * SciPy is a Python library used for scientific and technical computing. In the context of Bark, it is used to write the generated audio array to a .wav file.
+ * Specifically, the function scipy.io.wavfile.write() is used to save the audio in the standard .wav format
+Installation:
+  pip install scipy
+2. IPython
+ * IPython provides a rich interactive environment for Python, and its IPython.display.Audio function is used to play audio directly in Jupyter notebooks or similar environments.
+ * This function allows playback of the generated audio within the notebook environment, making it easier to evaluate the output without needing an external player.
+Installation
+   pip install ipython
+3. Torch (PyTorch)
+* Bark is typically built on top of PyTorch, one of the most widely used deep learning frameworks. PyTorch is responsible for loading the pre-trained models, running inference, and handling the underlying neural network computations.
+* If not already installed, Torch needs to be installed separately for Bark to function.
+Installation:
+  pip install torch
+Installation Example for Bark's Dependencies:
+  pip install scipy ipython numpy torch
 
